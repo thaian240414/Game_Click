@@ -38,13 +38,14 @@ button7 = PushButton(box, text="?",grid=[0,2], command= thong_bao_1, pady = 30, 
 def thong_bao_2():
     button8.image="meomeospy.png"
     button8.resize(200, 200)
-    info("Gián điệp", "Bạn đã tìm ra gián điệp")
+    info("Thắng rồi", "Bạn đã tìm ra gián điệp")
 
 button8 = PushButton(box, text="?",grid=[1,2], command=thong_bao_2, pady = 30, padx = 30,  width=WIDTH, height=HEIGHT)
 
 
 
 button9 = PushButton(box, text="?",grid=[2,2], command= thong_bao_1, pady = 30, padx = 30,  width=WIDTH, height=HEIGHT)
+
 
 
 
